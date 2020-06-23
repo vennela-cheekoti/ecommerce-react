@@ -13,7 +13,7 @@ class Ecommerce extends Component{
         size: "null"
     }
     componentDidMount(){
-        axios.get('http://images.stockal.com/api/products.json')
+        axios.get('https://images.stockal.com/api/products.json')
         .then(response => { //success
             console.log(response)
             this.setState({
