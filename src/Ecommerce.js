@@ -64,7 +64,6 @@ class Ecommerce extends Component{
         this.props.cartProductsData(cartData);
         this.modelClose();
     } 
-    
     render(){
         return(
             <div>
